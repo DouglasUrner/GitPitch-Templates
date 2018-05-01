@@ -1,15 +1,7 @@
 # GitPitch Templates
 
 * [generic][]
+* [code][]
 
+[code]: <https://gitpitch.com/DouglasUrner/GitPitch-Templates?p=code>
 [generic]: <https://gitpitch.com/DouglasUrner/GitPitch-Templates?p=generic>
-
----
-
-![Margaret Hamilton with the Apollo listings.](generic/images/margaret-hamilton-with-apollo-code-500x592.jpg)
-
----
-
-![](https://i.stack.imgur.com/M6vzc.jpg)
-
----

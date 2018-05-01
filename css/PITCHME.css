@@ -2,7 +2,11 @@
     text-align: left;
 }
 .reveal .slides section>* {
-    margin-left: 300px;
-    margin-right: 10px;
-    color: red;
+
+}
+
+.photo-left {
+  margin-left: 300px;
+  margin-right: 10px;
+  color: red;
 }

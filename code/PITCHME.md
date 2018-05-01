@@ -66,11 +66,11 @@ for (EmailAddress e : emailAddresses) {
 }
 ```
 
-@[1-2](Declare & initialize an array)
-@[4](Assign to a specific element of the array)
-@[6](Assign to the next element of the array)
-@[8-12](Loop over the array using an index)
-@[14-18](Iterate over all the items in the array using a "foreach loop" – no index.)
+@[1-2](Declare & initialize an ArrayList)
+@[4](Assign to a specific position in the list)
+@[6](Assign to the next element of the list)
+@[8-12](Loop over the list using an index)
+@[14-18](Iterate over all the items in the list using a "foreach loop" – no index.)
 
 Note:
 No need to specify the size of the list - it will grow as necessary.

@@ -8,7 +8,7 @@ Margaret Hamilton, the lead software engineer on the team that wrote the code fo
 
 ---
 
-@title[Arrays]
+## Arrays
 
 ```java
 int size = 42;
@@ -22,10 +22,18 @@ for (int i = 0; i < size; i++) {
     System.out.println(emailAddresses[i]);
   }
 }
+
+for (EmailAddress e : emailAddresses) {
+  if (e != null) {
+    System.out.println(e);
+  }
+}
 ```
+
 @[3](Declare & Initialize An Array)
-@[5]
+@[5](Assign To An Element Of The Array)
 @[7-11](Loop Over The Array Using An Index)
+@[13-17](Use a "foreach loop" to iterate over all of the items in the list.)
 
 ---
 

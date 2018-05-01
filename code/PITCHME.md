@@ -30,10 +30,12 @@ for (EmailAddress e : emailAddresses) {
 }
 ```
 
-@[3](Declare & Initialize An Array)
-@[5](Assign To An Element Of The Array)
-@[7-11](Loop Over The Array Using An Index)
-@[13-17](Use a "foreach loop" to iterate over all of the items in the list.)
+@[3](Declare & initialize an array)
+@[5](Assign to an element of the array)
+@[7-11](Loop over the array using an index)
+@[13-17](Iterate over all the items in the array using a "foreach loop" – no index.)
+
+Note:
 
 ---
 
@@ -42,3 +44,31 @@ for (EmailAddress e : emailAddresses) {
 ---
 
 ## ArrayList
+
+```java
+List<EmailAddress> emailAddresses =
+  new ArrayList<EmailAddress>();
+
+emailAddresses.add(7, new EmailAddress("me@example.com"));
+
+for (int i = 0; i < size; i++) {
+  if (emailAddresses.get(i) != null) {
+    System.out.println(emailAddresses.get(i));
+  }
+}
+
+for (EmailAddress e : emailAddresses) {
+  if (e != null) {
+    System.out.println(e);
+  }
+}
+```
+
+@[1](Declare & initialize an array)
+@[3](Assign to a specific element of the array)
+@[5](Assign to the next element of the array)
+@[7-11](Loop over the array using an index)
+@[13-17](Iterate over all the items in the array using a "foreach loop" – no index.)
+
+Note:
+No need to specify the size of the list - it will grow as necessary.

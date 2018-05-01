@@ -1,0 +1,7 @@
+.reveal .slides {
+    text-align: left;
+}
+.reveal .slides section>* {
+    margin-left: 670;
+    margin-right: 10;
+}

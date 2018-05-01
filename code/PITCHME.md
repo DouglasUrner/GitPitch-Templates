@@ -47,7 +47,7 @@ Note:
 
 ```java
 List<EmailAddress> emailAddresses =
-  new ArrayList<EmailAddress>();
+  new ArrayList<>();
 
 emailAddresses.add(7, new EmailAddress("me@example.com"));
 
@@ -74,3 +74,4 @@ for (EmailAddress e : emailAddresses) {
 
 Note:
 No need to specify the size of the list - it will grow as necessary.
+You may see examples with the type listed on both sides of the declaration, but this is not needed in recent versions of Java.

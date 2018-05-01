@@ -67,8 +67,8 @@ for (EmailAddress e : emailAddresses) {
 ```
 
 @[1-2](Declare & initialize an ArrayList)
-@[4](Assign to a specific position in the list)
-@[6](Assign to the next element of the list)
+@[4](Assign to a specific position in the list (7))
+@[6](Assign to the next available position in the list)
 @[8-12](Loop over the list using an index)
 @[14-18](Iterate over all the items in the list using a "foreach loop" – no index.)
 

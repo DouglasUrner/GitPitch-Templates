@@ -2,7 +2,9 @@
 
 ## Working With Collections of Objects
 
-Margaret Hamilton, the lead software engineer on the team that wrote the code for the guidance computer of the Apollo lunar excursion module standing next to a stack the listings of their code. Cambridge, MA, 1969.
+Note:
+
+Margaret Hamilton, the lead software engineer on the team that wrote the code for the guidance computer of the Apollo lunar excursion module standing next to a stack the listings of their code. Cambridge, MA - 1969.
 
 ---
 

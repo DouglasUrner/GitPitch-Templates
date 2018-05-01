@@ -51,6 +51,8 @@ List<EmailAddress> emailAddresses =
 
 emailAddresses.add(7, new EmailAddress("me@example.com"));
 
+emailAddresses.add(new EmailAddress("you@example.com"));
+
 for (int i = 0; i < size; i++) {
   if (emailAddresses.get(i) != null) {
     System.out.println(emailAddresses.get(i));
@@ -64,11 +66,11 @@ for (EmailAddress e : emailAddresses) {
 }
 ```
 
-@[1](Declare & initialize an array)
-@[3](Assign to a specific element of the array)
-@[5](Assign to the next element of the array)
-@[7-11](Loop over the array using an index)
-@[13-17](Iterate over all the items in the array using a "foreach loop" – no index.)
+@[1-2](Declare & initialize an array)
+@[4](Assign to a specific element of the array)
+@[6](Assign to the next element of the array)
+@[8-12](Loop over the array using an index)
+@[14-18](Iterate over all the items in the array using a "foreach loop" – no index.)
 
 Note:
 No need to specify the size of the list - it will grow as necessary.

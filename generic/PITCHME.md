@@ -1,0 +1,3 @@
+# GitPitch For Teachers
+
+---
